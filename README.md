@@ -1,8 +1,7 @@
 ## links
 
-live site - https://results-summary-component-abdul.netlify.app/
-source code - https://github.com/Aazeez257/results-summary-component
-
+live site - https://abdul-clipboard-landing-page-121.netlify.app/
+source code - https://github.com/Aazeez257/clipboard-landing-page
 ## Built with
 
 HTML
