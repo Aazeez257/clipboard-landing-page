@@ -1,0 +1,73 @@
+@media (max-width: 24rem) {
+  html {
+    font-size: 54%;
+  }
+  .hero-br {
+    visibility: hidden;
+  }
+  .hero-btn {
+    display: block;
+    width: 80%;
+    height: 5rem;
+    margin: 2rem auto 2rem auto;
+  }
+  .br-s-screen {
+    display: block;
+  }
+  .track-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    row-gap: 4rem;
+  }
+  .track-description-main:not(.track-description-main:first-child) {
+    margin-top: 2rem;
+  }
+  .track-description-sub {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .main-track-description {
+    width: 80%;
+  }
+  .track-image img {
+    width: 80%;
+  }
+  .access-description-sub {
+    width: 90%;
+  }
+  .devices-img {
+    width: 80%;
+  }
+  .logo-container {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    justify-items: center;
+  }
+  .features-container {
+    grid-template-columns: 1fr;
+    width: 80%;
+  }
+  .download-description {
+    width: 80%;
+  }
+  .footer-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .footer-description p {
+    margin-bottom: 2rem;
+  }
+  .footer-description-6 {
+    justify-self: center;
+  }
+  .footer-logo img {
+    margin-bottom: 2rem;
+  }
+  .footer-social-icon {
+    margin-right: 3rem;
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+}
