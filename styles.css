@@ -1,0 +1,230 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+/*  ***Hero section ***
+******************** */
+
+.hero-section {
+  text-align: center;
+  height: 100vh;
+}
+.hero-bg-image {
+  background: url(images/bg-header-desktop.png);
+  height: 45vh;
+  background-size: cover;
+}
+.br-s-screen {
+  display: none;
+}
+.main-logo {
+  height: 20vh;
+  margin-bottom: 3rem;
+}
+.main-heading {
+  font-size: 3.6rem;
+  color: #5a6269;
+  margin-bottom: 2rem;
+}
+.main-description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #c1c5c8;
+  margin-bottom: 4rem;
+}
+.hero-btn {
+  font-size: 1.6rem;
+  padding: 0.7rem 1.4rem;
+  color: #fff;
+  background-color: grey;
+  border-radius: 90rem;
+  border: none;
+}
+.hero-btn:hover {
+  cursor: pointer;
+}
+.ios-download {
+  background-color: #26bba5;
+  box-shadow: 0px 4px 200px #29c5adfc;
+  margin-right: 1.2rem;
+}
+.mac-download {
+  background-color: #6174ff;
+}
+.hero-text-area {
+  /* background-color: grey; */
+  margin-top: -15rem;
+}
+/*  ***Hero section ***
+******************** */
+
+/*  ***Track section ***
+******************** */
+.track-section {
+  text-align: center;
+}
+.main-track-heading {
+  font-size: 3rem;
+  color: #5a6269;
+  margin-bottom: 2rem;
+}
+.main-track-description {
+  font-size: 2rem;
+  color: #c0c2c4;
+  width: 65vw;
+  margin: 0 auto;
+}
+.track-container {
+  width: 90vw;
+  margin: 6rem auto;
+  column-gap: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  text-align: start;
+}
+.track-description-main {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+.track-description-sub {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #c0c2c4;
+}
+.track-description-main:first-child {
+  margin-top: 0;
+}
+/*  ***Track section ***
+******************** */
+
+/*  ***Access section ***
+******************** */
+.access-section {
+  text-align: center;
+}
+.access-description-main {
+  font-size: 3rem;
+  color: #5a6269;
+  margin-bottom: 2rem;
+}
+.access-description-sub {
+  font-size: 2rem;
+  color: #c0c2c4;
+  width: 65vw;
+  margin: 0 auto;
+}
+.devices-img {
+  margin-top: 8rem;
+}
+
+/*  ***Access section ***
+******************** */
+
+/*  ***Features section ***
+******************** */
+.features-heading {
+  font-size: 3rem;
+  color: #52575b;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+.features-description {
+  font-size: 1.6rem;
+  color: #abaeaf;
+  text-align: center;
+}
+.features-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  width: 70vw;
+  margin: 4rem auto;
+  text-align: center;
+}
+.feature-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #525658;
+  margin-bottom: 1rem;
+}
+.feature-description {
+  font-size: 1rem;
+  color: rgb(197, 201, 201);
+  line-height: 2;
+}
+.feature-logo {
+  font-size: 3rem;
+  color: #9caab2;
+}
+/*  ***Features section ***
+******************** */
+
+/*  ***Logos section ***
+******************** */
+.logo-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 70vw;
+  margin: 10rem auto;
+  align-items: center;
+}
+/*  ***Logos section ***
+******************** */
+
+/*  ***Download section ***
+******************** */
+.download-heading {
+  font-size: 3rem;
+  color: #5a6269;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.download-description {
+  font-size: 1.8rem;
+  color: #c0c2c4;
+  width: 65vw;
+  margin: 1rem auto 3rem auto;
+  text-align: center;
+}
+.download-app-section div {
+  text-align: center;
+}
+/*  ***Download section ***
+******************** */
+
+/*  ***Footer section ***
+******************** */
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  font-size: 1rem;
+  color: #96999c;
+  width: 80vw;
+  margin: 12rem auto 2rem auto;
+  font-weight: 600;
+}
+.footer-logo img {
+  height: 4rem;
+}
+.footer-social-icon {
+  font-size: 2rem;
+  color: #4b555c;
+  margin-right: 0.5rem;
+}
+.footer-description-6 {
+  justify-self: end;
+}
